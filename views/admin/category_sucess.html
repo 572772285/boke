@@ -1,0 +1,8 @@
+{% extends './layout.html' %}
+{% block title %}管理员页面{% endblock %}
+{% block header %}用户列表{% endblock %}
+{% block content %}
+<div class="alert alert-success" role="alert">{{ sucess }}</div>
+<a href="/admin/list">返回</a>
+{% endblock %}
+{% block script %}<script src="/js/category.js"></script>{% endblock %}
